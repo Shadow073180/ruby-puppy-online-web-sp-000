@@ -5,8 +5,8 @@ class Dog
     @@all << self
   end
 
-  def self.all(all)
-    all.each do |x|
+  def self.all
+    @@all.each do |x|
       puts x
     end
   end
@@ -14,6 +14,8 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+
+  def 
 
 
 
